@@ -16,7 +16,7 @@ session_start();
 
 	<meta name="keyword" content="">
 
-	<title>Ópalo Studio</title>
+	<title>Project Onix</title>
 	<link rel="icon" type="image/png" id="dinamico" href="vistas/img/favicon.png" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
@@ -96,12 +96,12 @@ session_start();
 </head>
 
 <body>
-	<div class="zonaA">
+	
 		<?php
 
 
 if(isset($_GET['id'])){
-	include('vistas/modulos/finalizacionPago.php');
+	//include('vistas/modulos/inicial.php');
 }
 
 elseif(isset($_GET['page'])){
@@ -110,13 +110,13 @@ elseif(isset($_GET['page'])){
 	switch($_GET['page']){
 
 		case '1':
-		//Video
-		include('vistas/modulos/zonaA_video.php');
+		//Catalogo de contenido para html
+		include('vistas/modulos/htmlCatalogo.php');
 		break;
 
 		case '2':
 		//Work
-		include('vistas/modulos/zonaA_work.php');
+		include('vistas/modulos/cssCatalogo.php');
 		break;
 
 		case '3':
@@ -169,97 +169,13 @@ elseif(isset($_GET['page'])){
 	}
 	}
 	else {
-		include('vistas/modulos/zonaA_video.php');
+		include('vistas/modulos/inicial.php');
 	}
 
 
 
 ?>
-	</div>
-	<div class="zonaB">
-		<?php
-include('vistas/modulos/zonaB_menu.php');
-include('vistas/modulos/zonaB_links.php');
-
-
-
-
-if(isset($_GET['id'])){
-	include('vistas/modulos/finalizacionPago.php');
-}
-
-elseif(isset($_GET['page'])){
 	
-
-	switch($_GET['page']){
-
-		case '1':
-		//Video
-		include('vistas/modulos/zonaB_video.php');
-		break;
-
-		case '2':
-		//Work
-		include('vistas/modulos/zonaB_work.php');
-		break;
-
-		case '3':
-		//Laboratorio
-		include('vistas/modulos/zonaB_lab.php');
-		break;
-
-		case '4':
-		//Formulario
-		include('vistas/modulos/zonaB_formulario.php');
-		break;
-
-		case '5':
-		//Ludicultura
-		include('vistas/modulos/zonaB_ludi.php');
-		break;
-
-		case '6':
-		//Floyd
-		include('vistas/modulos/zonaB_floyd.php');
-		break;
-
-		case '7':
-		//Lookgeo
-		include('vistas/modulos/zonaB_lookgeo.php');
-		break;
-
-		case '8':
-		//PaoPetite
-		include('vistas/modulos/zonaB_pao.php');
-		break;
-
-		case '9':
-		//Proto
-		include('vistas/modulos/zonaB_proto.php');
-		break;
-
-		case '10':
-		//Cumbre
-		include('vistas/modulos/zonaB_cumbre.php');
-		break;
-
-		case '11':
-		//Alex
-		include('vistas/modulos/zonaB_alex.php');
-		break;
-
-		
-
-
-	}
-}
-else {
-	include('vistas/modulos/zonaB_video.php');
-}
-
-
-?>
-	</div>
 
 
 </body>
