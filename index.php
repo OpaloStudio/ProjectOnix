@@ -110,61 +110,79 @@ elseif(isset($_GET['page'])){
 	switch($_GET['page']){
 
 		case '1':
-		//Catalogo de contenido para html
+		//Catalogo HTML
 		include('vistas/modulos/htmlCatalogo.php');
 		break;
 
 		case '2':
-		//Work
+		//Catalogo CSS
 		include('vistas/modulos/cssCatalogo.php');
 		break;
 
 		case '3':
-		//Lab
-		include('vistas/modulos/zonaA_lab.php');
+		//Catalogo Server
+		include('vistas/modulos/serverCatalogo.php');
 		break;
 
 		case '4':
-		//Formulario
-		include('vistas/modulos/zonaA_formulario.php');
+		//Catalogo SASS
+		include('vistas/modulos/javaCatalogo.php');
 		break;
 
 		case '5':
-		//Ludicultura
-		include('vistas/modulos/zonaA_ludi.php');
+		//FRAMEWORKS
+		include('vistas/modulos/frameworks.php');
 		break;
 
 		case '6':
-		//Floyd
-		include('vistas/modulos/zonaA_floyd.php');
+		//TAGS
+		include('vistas/modulos/tags.php');
 		break;
 
 		case '7':
-		//Lookgeo
-		include('vistas/modulos/zonaA_lookgeo.php');
+		//CSS
+		include('vistas/modulos/css.php');
 		break;
 
 		case '8':
-		//PaoPetite
-		include('vistas/modulos/zonaA_pao.php');
+		//SASS
+		include('vistas/modulos/sass.php');
 		break;
 
 		case '9':
-		//Publicación
-		include('vistas/modulos/zonaA_proto.php');
+		//Vanilla JS
+		include('vistas/modulos/vanillaJs.php');
 		break;
 
 		case '10':
-		//Cumbre
-		include('vistas/modulos/zonaA_cumbre.php');
+		//Jquery
+		include('vistas/modulos/jquery.php');
 		break;
 
 		case '11':
-		//Alex
-		include('vistas/modulos/zonaA_alex.php');
+		//Angular
+		include('vistas/modulos/angular.php');
 		break;
 
-		
+		case '12':
+		//Jason
+		include('vistas/modulos/json.php');
+		break;
+
+		case '13':
+		//PHP
+		include('vistas/modulos/php.php');
+		break;
+
+		case '14':
+		//SQL
+		include('vistas/modulos/sql.php');
+		break;
+
+		case '15':
+		//Node JS
+		include('vistas/modulos/nodeJs.php');
+		break;
 
 	}
 	}
