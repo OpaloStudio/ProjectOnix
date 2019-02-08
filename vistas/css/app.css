@@ -4,7 +4,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .btnInicial {
   width: 0px;
@@ -16,10 +17,120 @@
   -moz-border-radius: 0px;
   border-radius: 0px;
   padding: 20px 50px 20px 50px;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 .btnInicial:hover {
   background-color: black;
-  color: red; }
+  color: red;
+}
+
+.menuHtml {
+  background-color: purple;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnHtml {
+  width: 0px;
+  height: 0px;
+  background-color: #D2B4DE;
+  color: #660099;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none !important;
+}
+
+.btnHtml:hover {
+  background-color: #660099;
+  color: #D2B4DE;
+}
+
+.menuCss {
+  background-color: #154360;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCss {
+  width: 0px;
+  height: 0px;
+  background-color: #2980B9;
+  color: #85C1E9;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none !important;
+}
+
+.btnCss:hover {
+  background-color: #85C1E9;
+  color: #2980B9;
+}
+
+.menuServer {
+  background-color: #0E6251;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnServer {
+  width: 0px;
+  height: 0px;
+  background-color: #1ABC9C;
+  color: white;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none !important;
+}
+
+.btnServer:hover {
+  background-color: white;
+  color: #1ABC9C;
+}
+
+.menuJava {
+  background-color: #1B2631;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnJava {
+  width: 0px;
+  height: 0px;
+  background-color: #34495E;
+  color: #85929E;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none !important;
+}
+
+.btnJava:hover {
+  background-color: #85929E;
+  color: #34495E;
+}
 
 /*# sourceMappingURL=app.css.map */
