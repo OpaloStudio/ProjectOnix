@@ -1,0 +1,25 @@
+.menuInicial {
+  background-color: orange;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btnInicial {
+  width: 0px;
+  height: 0px;
+  background-color: red;
+  color: black;
+  border: 1px solid black;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 20px 50px 20px 50px;
+  text-decoration: none !important; }
+
+.btnInicial:hover {
+  background-color: black;
+  color: red; }
+
+/*# sourceMappingURL=app.css.map */
