@@ -133,4 +133,54 @@
   color: #34495E;
 }
 
+.moduloBarra {
+  background-color: purple;
+  height: 100vh;
+  width: 20vw;
+}
+
+.buscador {
+  background-color: #D2B4DE;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.opciones {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.moduloPanel {
+  background-color: pink;
+  height: 100vh;
+  width: 100%;
+}
+
+.nombreTecnologia {
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.codigo {
+  height: 35%;
+  width: 100%;
+  background-color: pink;
+  text-align: center;
+}
+.implementacion {
+  height: 35%;
+  width: 100%;
+  background-color: #EC7063;
+  text-align: center;
+}
+
+.vistaCompleta {
+  display: flex;
+  flex-direction: row !important;
+}
+
 /*# sourceMappingURL=app.css.map */

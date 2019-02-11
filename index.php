@@ -131,7 +131,7 @@ elseif(isset($_GET['page'])){
 
 		case '5':
 		//FRAMEWORKS
-		include('vistas/modulos/frameworks.php');
+		include('vistas/modulos/vistaCompleta.php');
 		break;
 
 		case '6':
