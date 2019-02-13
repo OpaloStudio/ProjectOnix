@@ -7,8 +7,7 @@
         Codigo
     </div>
 
-    <div class="implementacion">
+    <div class="implementacionPanel">
         implementacion
-
     </div>
 </div>

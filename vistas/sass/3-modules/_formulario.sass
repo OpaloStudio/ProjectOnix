@@ -1,0 +1,55 @@
+.moduloFormulario
+    background-color: #566573
+    height: 100vh
+    width:  50vw
+
+.formulario
+    margin: 0
+    width: 90%
+    max-width: 100vw
+    margin: auto
+    margin-top: 30px
+    padding: 20px
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3)
+    position: relative
+
+.formularioTitulo
+    text-align: center
+    margin-top: 0
+    color: #D5D8DC
+
+.formularioInput
+    +formulario(block, 100%, 20px)
+    padding: 20px
+    //background: transparent
+    border:  1px solid rgba(0,0,0,0.3)
+    margin-bottom: 40px
+
+.formularioInput:focus
+    outline: 1px solid white
+
+.formularioInput:focus + .formularioLabel
+    margin-top: -140px
+
+
+.formularioLabel
+    +formulario(block, 100%, 20px)
+    padding-left: 15px
+    position: absolute
+    margin-top: -90px
+    //z-index: -20
+    color: #D5D8DC
+    transition: all 0.2s
+
+.formularioEnviar
+    +formulario(block, 100%, 20px)
+    background: #D5D8DC
+    color: #566573
+    padding: 10px, 20px
+    cursor: pointer
+    border: none
+
+.fijar
+    margin-top: -140px
+
+

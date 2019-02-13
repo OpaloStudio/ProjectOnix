@@ -4,6 +4,7 @@
         <a href="?page=2" class="btnInicial" >CSS</a>
         <a href="?page=3" class="btnInicial" >SERVER</a>
         <a href="?page=4" class="btnInicial" >JAVA SCRIPT</a>
+        <a href="?page=16" class="btnInicial" >NUEVA ENTRADA</a>
     </div>
 </div>
 

@@ -79,6 +79,13 @@ session_start();
 			include('controladores/controlador.zonaB_floyd.php');
 			break;
 
+			case '16':
+			//Formulario
+			include('controladores/controlador.formulario.php');
+			include('controladores/controlador.plantilla.php');
+			
+			break;
+
 			
 
 			case 'default':
@@ -183,7 +190,11 @@ elseif(isset($_GET['page'])){
 		//Node JS
 		include('vistas/modulos/nodeJs.php');
 		break;
-
+		
+		case '16':
+		//Nueva Entrada
+		include('vistas/modulos/nuevaEntrada.php');
+		break;
 	}
 	}
 	else {
@@ -195,7 +206,7 @@ elseif(isset($_GET['page'])){
 ?>
 	
 
-
+<script>src='form.js'</script>
 </body>
 
 </html>
